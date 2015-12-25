@@ -1,0 +1,15 @@
+{
+  "name": "puppet-discover",
+  "version": "0.1.0",
+  "author": "l50",
+  "summary": "Install Discovery on Debian",
+  "license": "MIT",
+  "source": "https://github.com/l50/puppet-discover",
+  "project_page": "https://github.com/l50/puppet-discover",
+  "issues_url": "https://github.com/l50/puppet-discover",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+    {"name":"puppetlabs-git","version_requirement":">= 1.0.0"}
+  ]
+}
+
