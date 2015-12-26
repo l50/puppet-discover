@@ -42,11 +42,11 @@ class discover(
     provider => git,
     source   => 'git://github.com/leebaird/discover.git',
     require  => Class['git'],
-    before   => Exec['install_discover']
+    before   => Exec['update_discover']
   }
 
-  exec { 'install_discover':
-    command  => "$install_location/setup.sh",
+  exec { 'update_discover':
+    command  => "$install_location/update.sh",
     provider => 'shell',
   }
 }
