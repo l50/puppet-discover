@@ -9,6 +9,7 @@ discover
 1. [Overview](#overview)
 2. [Module Description - What the module does and why it is useful](#module-description)
 3. [Setup - The basics of getting started with discover](#setup)
+    * [Setup requirements](#setup-requirements)
     * [Beginning with discover](#beginning-with-discover)
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Limitations - OS compatibility, etc.](#limitations)
@@ -24,6 +25,15 @@ This module will install Discover on a Kali machine. This may be useful for Syst
 Penetration Testers.
 
 ## Setup
+
+### Setup Requirements
+
+The git puppet module is required for this module to work
+properly. Please add it to your Puppetfile like so:
+
+```
+mod 'puppetlabs/git'
+```
 
 ### Beginning with discover
 
